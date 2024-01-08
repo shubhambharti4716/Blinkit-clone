@@ -205,8 +205,11 @@ table {
 }
 @media screen and (max-width: 768px) {
   .nav-section {
-    margin-top: 25px;
+    
     flex-direction: column !important;
+  }
+  .nav-section a{
+    padding-top: 15px;
   }
   .search-div,
   .location {
@@ -238,6 +241,9 @@ table {
   }
   .footer-item,.btn-1 {
     margin-top: 10px;
+  }
+  .footer-item p{
+    padding-left: 15px;
   }
   .footer-item-1 {
     margin-top: 10px;
