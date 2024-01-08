@@ -16,8 +16,12 @@
   font-weight: 400;
 }
 .vertical-line {
-  height: 100%;
-  border-left: 55px solid grey;
+  height: fit-content;
+  margin: -10px;
+  font-size: 40px;
+  color: rgb(231, 231, 231);
+  opacity: 45%;
+  cursor: none;
 }
 .search-div {
   padding: 0px 12px;
@@ -29,6 +33,7 @@
 .search-div > input {
   border: none;
   background-color: transparent;
+  padding: 2px;
   width: 40vw;
   height: 45px;
 }
@@ -72,6 +77,7 @@
 }
 .my-card > img {
   margin: auto !important;
+  cursor: pointer;
 }
 .product-time {
   display: flex;
@@ -85,23 +91,27 @@
   font-weight: 700;
   font-size: 9px;
   color: rgb(54, 54, 54);
+  cursor: pointer;
 }
 .product-title {
   color: rgb(31, 31, 31);
   font-weight: 600;
   font-size: 13px;
   height: 50px;
+  cursor: pointer;
 }
 .product-weight {
   color: #666;
   font-size: 12px;
   font-family: "Okra", Helvetica;
+  cursor: pointer;
 }
 .product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  cursor: pointer;
 }
 .category-section-row {
   width: 100%;
@@ -195,6 +205,7 @@ table {
 }
 @media screen and (max-width: 768px) {
   .nav-section {
+    margin-top: 25px;
     flex-direction: column !important;
   }
   .search-div,
