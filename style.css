@@ -205,8 +205,10 @@ table {
 }
 @media screen and (max-width: 768px) {
   .nav-section {
-    
     flex-direction: column !important;
+  }
+  .vertical-line{
+    visibility: hidden;
   }
   .nav-section a{
     padding-top: 15px;
