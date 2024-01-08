@@ -217,6 +217,12 @@ table {
   .location {
     width: 100%;
   }
+  .location p{
+    padding-bottom: 10px;
+  }
+  .search-div{
+    margin-bottom: 8px;
+  }
   .hero-section > img,.btn,.my-cart {
     display: none !important;
   }
